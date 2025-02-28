@@ -3,8 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define e = Character("Eileen", color="#cf88c8")
 
+define z = Character("")
 
 # The game starts here.
 
@@ -24,9 +25,15 @@ label start:
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    e "Welcome to the bloody death battle™."
 
     e "Once you add a story, pictures, and music, you can release it to the world!"
+    
+    e "Слоны превосоходны!"
+
+    hide eileen happy
+    
+    z "11"
 
     # This ends the game.
 
