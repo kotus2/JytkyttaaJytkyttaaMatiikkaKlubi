@@ -23,13 +23,16 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = "gay test"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""
+define gui.about = _p(""" Tämä on meidän visuaalinen romaani: "Jytkyttaa Jytkyttaa Matiikka Klubi 😏". 
+
+Ja tulevaisuudessa se on suurin peli maailmassa 🤑🤑🤑🥵🥵😼. Kuitenkin, se ei ole "peli", 
+mutta laitos joka koskettaa ihmisten sydämiä!❤️
 """)
 
 
@@ -37,7 +40,7 @@ define gui.about = _p("""
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "JytkyttaaJytkyttaaMatiikkaKlubi"
+define build.name = "JJMK"
 
 
 ## Sounds and music ############################################################
