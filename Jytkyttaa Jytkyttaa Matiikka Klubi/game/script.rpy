@@ -4,6 +4,7 @@
 # name of the character.
 
 define e = Character("Eileen", color="#cf88c8")
+define y = Character("Yrsa", color="#00ff00")
 
 define z = Character("")
 
@@ -34,6 +35,17 @@ label start:
     hide eileen happy
     
     z "11"
+    
+    show yrsa neutral
+    
+    y "player... i remember your'e {color=#f00}{b}genocides...{/b}{/color}"
+    
+    hide yrsa neutral
+    show yrsa peculiar
+    
+    y "hmm........"
+    
+    y "i'm feeling a bit... {color=#f0f}{b}peculiar.....{/b}{/color}"
 
     # This ends the game.
 

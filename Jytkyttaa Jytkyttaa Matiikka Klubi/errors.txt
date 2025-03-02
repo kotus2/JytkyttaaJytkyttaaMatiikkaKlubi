@@ -2,9 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 6: invalid syntax
-    Character("Eileen" color="#cf88c8")
-                        ^
+File "game/script.rpy", line 7: is not terminated with a newline. (Check strings and parenthesis.)
+    define y = Character("Yrsa", color=
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Fri Feb 28 21:01:56 2025
+Sun Mar  2 20:27:20 2025
