@@ -3,10 +3,13 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen", color="#cf88c8")
-define y = Character("Yrsa", color="#00ff00")
+define vaino = Character("Väinö", color="#db0404")
+define yrsa = Character("Yrsa", color="#00ff00")
+define lemitty = Character("Lemitty", color="#fbff00")
+define jalmari = Character("Jalmari", color="#0000FF")
 
-define z = Character("")
+
+
 
 # The game starts here.
 
@@ -22,30 +25,28 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show jalmari happy
 
     # These display lines of dialogue.
 
-    e "Welcome to the bloody death battle™."
+    jalmari "Hi good to meet you!"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-    
-    e "Слоны превосоходны!"
+
 
     hide eileen happy
     
-    z "11"
+    
     
     show yrsa neutral
     
-    y "player... i remember your'e {color=#f00}{b}genocides...{/b}{/color}"
+    # y "player... i remember your'e {color=#f00}{b}genocides...{/b}{/color}"
     
-    hide yrsa neutral
-    show yrsa peculiar
+    # hide yrsa neutral
+    # show yrsa peculiar
     
-    y "hmm........"
+    # y "hmm........"
     
-    y "i'm feeling a bit... {color=#f0f}{b}peculiar.....{/b}{/color}"
+    # y "i'm feeling a bit... {color=#f0f}{b}peculiar.....{/b}{/color}"
 
     # This ends the game.
 
