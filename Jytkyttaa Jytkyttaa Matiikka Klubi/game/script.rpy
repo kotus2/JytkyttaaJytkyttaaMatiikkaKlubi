@@ -3,10 +3,10 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define vaino = Character("Väinö", color="#db0404")
-define yrsa = Character("Yrsa", color="#00ff00")
-define lemitty = Character("Lemitty", color="#fbff00")
-define jalmari = Character("Jalmari", color="#0000FF")
+define v = Character("Väinö", color="#db0404")
+define y = Character("Yrsa", color="#00ff00")
+define l = Character("Lemitty", color="#fbff00")
+define j = Character("Jalmari", color="#0000FF")
 
 
 
@@ -19,7 +19,7 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene bg classroom
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
@@ -28,8 +28,11 @@ label start:
     show jalmari happy
 
     # These display lines of dialogue.
+    j "Shimi shimi ya shimi shimi e shwalalala (drank) shwalalala"
 
-    jalmari "Hi good to meet you!"
+    j "Hi good to meet you!"
+
+    j "What about you take test so we can know whats your math level"
 
 
 
